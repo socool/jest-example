@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverage": true
   },
   "keywords": [],
   "author": "",
