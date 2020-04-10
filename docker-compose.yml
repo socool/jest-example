@@ -4,5 +4,5 @@ services:
     image: petstore-service:1.0
     build: stoplight/.
     ports:
-      - "3000:3000"
+      - "4010:4010"
     command: "mock -h 0.0.0.0 /usr/petstore.oas3.yaml"
